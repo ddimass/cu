@@ -73,10 +73,10 @@ cd cu
 │   │   └── php.ini
 │   └── ssl
 └── web
+```
 
 
-
-## Run the application
+### Run the application
 
 1. Setting up PHP environment : 
 
@@ -107,7 +107,7 @@ cd cu
     sudo docker-compose down -v
     ```
 
-## Login information
+### Login information
 
 APP
 User: admin
