@@ -17,6 +17,8 @@ Docker running Nginx, PHP-FPM, Composer, MySQL and PHPMyAdmin.
     By this point we’ll have all the project pieces in place.
 4. [Login information](#login-information)
 
+5. [Application usage](#application-usage)
+
 ## Install prerequisites
 
 For now, this project has been mainly created for Unix `(Linux/MacOS)`. Perhaps it could work on Windows.
@@ -88,6 +90,7 @@ cd cu
 2. Start the application :
 
     ```sh
+    cd ..
     sudo docker-compose up -d
     ```
 4. Edit HOSTS :
@@ -98,7 +101,7 @@ cd cu
 5. Open your favorite browser :
  
      * [http://cup.local:80](http://localhost:80/)
-     * [http://cup.local:8080](http://localhost:8080/) PHPMyAdmin (username: dev, password: dev)
+     * [http://cup.local:8080](http://localhost:8080/) PHPMyAdmin (username: root, password: root)
    
 
 6. Stop and clear services
@@ -116,4 +119,9 @@ Pass: admin
 MySQL
 User: root
 PAss: root
-   
+
+### Application usage
+
+1. Create teams
+2. Create games
+3. Add results of games
