@@ -15,7 +15,7 @@ Docker running Nginx, PHP-FPM, Composer, MySQL and PHPMyAdmin.
 3. [Run the application](#run-the-application)
 
     By this point we’ll have all the project pieces in place.
-4. [Login information](#login information)
+4. [Login information](#login-information)
 
 ## Install prerequisites
 
