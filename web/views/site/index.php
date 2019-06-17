@@ -24,7 +24,7 @@ $this->title = 'My Yii Application';
         <?php } ?>
     </ul>
     <ul class="left4">
-        <?php foreach(array_reverse(array_slice($games,-2)) as $game) { ?>
+        <?php foreach(array_reverse(array_slice($games,14, 2)) as $game) { ?>
             <li><?= $game->teamOne->name ?><span><?= $game->results[0]->score ?></span></li>
             <li><?= $game->teamTwo->name ?><span><?= $game->results[1]->score ?></span></li>
         <?php } ?>

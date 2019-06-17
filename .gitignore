@@ -8,7 +8,7 @@ web/app/composer.lock
 web/app/vendor/
 web/app/doc/
 web/app/report/
-data/
+#data/
 
 # PHPStorm
 .idea/**/workspace.xml
